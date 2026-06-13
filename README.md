@@ -91,9 +91,12 @@ FinTech companies · Insurance providers · Healthcare organizations
 - **Remediation action plan** - risk-ranked CRITICAL → HIGH → MEDIUM with specific actions
 - **Scoring methodology appendix** - transparent formula, severity weights, confidence blending explained
 
-<p align="center">
-  <img src="pdf_report.png" alt="PDF Report" width="600">
-</p>
+<details>
+<summary>📄 View Sample PDF Report</summary>
+
+![PDF Report](pdf_report.png)
+
+</details>
 
 ### 💬 AI Chat Assistant (New)
 After every audit, an interactive chat panel appears powered by the same Qwen2.5-7B model:
