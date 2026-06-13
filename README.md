@@ -335,7 +335,7 @@ Tested on 7-page GlobalFinTech Enterprise Compliance Agreement (mixed COMPLIANT/
 | **Overall Score** | 75% |
 | **Risk Level** | MEDIUM |
 | **Rules Checked** | 13 (deduplicated from 22) |
-| **Tokens Used** | ~7,340 |
+| **Tokens Used** | ~7,332 |
 | **Avg Latency** | ~15.9s/chunk |
 | **GPU Memory** | ~15.5 GB / 206 GB |
 | **PDF Pages** | 5 |
