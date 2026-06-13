@@ -164,23 +164,23 @@ AuditAgent.run(doc_path)
 ```
 auditiq/
 │
-├── 📄 README.md
-├── 📄 requirements.txt
-├── 🚀 fastapi_app.py              # Production FastAPI server
+├── README.md
+├── requirements.txt
+├── fastapi_app.py              # Production FastAPI server
 │
 ├── src/
-│   ├── 🧠 constants.py            # Model IDs, hyperparameters
-│   ├── 📝 document_parser.py      # PDF/TXT parsing + chunking
-│   ├── 🔢 embeddings.py           # BGE embedding model
-│   ├── 🔍 rag_pipeline.py         # FAISS index + similarity retrieval
-│   ├── ✅ validator.py             # LLM validation + blended confidence
-│   ├── 📊 confidence_scorer.py    # Dedup + severity-weighted scoring
-│   ├── 🤖 validator_agent.py      # Orchestration agent
-│   ├── 📄 report_generator.py     # PDF + HTML + JSON report generation
-│   ├── 🎨 charts.py               # Plotly chart generators (Gradio)
-│   ├── 🖥️  app.py                  # Gradio prototype UI
-│   ├── 🌐 index.html              # FastAPI enterprise dashboard + chat
-│   └── 📦 plotly.min.js           # Bundled Plotly (offline capable)
+│   ├── constants.py            # Model IDs, hyperparameters
+│   ├── document_parser.py      # PDF/TXT parsing + chunking
+│   ├── embeddings.py           # BGE embedding model
+│   ├── rag_pipeline.py         # FAISS index + similarity retrieval
+│   ├── validator.py            # LLM validation + blended confidence
+│   ├── confidence_scorer.py    # Dedup + severity-weighted scoring
+│   ├── validator_agent.py      # Orchestration agent
+│   ├── report_generator.py     # PDF + HTML + JSON report generation
+│   ├── charts.py               # Plotly chart generators (Gradio)
+│   ├── app.py                  # Gradio prototype UI
+│   ├── index.html              # FastAPI enterprise dashboard + chat
+│   └── plotly.min.js           # Bundled Plotly (offline capable)
 │
 ├── data/
 │   ├── compliance_rules/
