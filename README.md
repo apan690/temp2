@@ -65,7 +65,7 @@ FinTech companies · Insurance providers · Healthcare organizations
 
 ---
 
-## ✨ Features
+## Features
 
 ### 🤖 Core AI Pipeline
 - **RAG-powered rule retrieval** - FAISS IndexFlatIP with 0.60 cosine similarity threshold
@@ -117,7 +117,7 @@ Every answer is grounded in the current audit result - no hallucination from pri
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
@@ -165,7 +165,7 @@ AuditAgent.run(doc_path)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Why |
 |-----------|------------|-----|
@@ -184,7 +184,7 @@ AuditAgent.run(doc_path)
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 auditiq/
@@ -247,7 +247,7 @@ auditiq/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### Prerequisites
 - AMD GPU with ROCm support (developed and tested on AMD Instinct MI300X)
@@ -285,7 +285,7 @@ python fastapi_app.py
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Option A - Enterprise Web UI (Recommended)
 ```bash
@@ -322,7 +322,7 @@ print(f"Frameworks: {result['score_data']['framework_scores']}")
 
 ---
 
-## 📊 Scoring Methodology
+## Scoring Methodology
 
 ### Overall Score Formula
 ```
@@ -357,7 +357,7 @@ Priority: `NON_COMPLIANT > PARTIAL > COMPLIANT > NOT_APPLICABLE`
 
 ---
 
-## 📈 Demo Results
+## Demo Results
 
 ![auditiq Results](results_dashboard.png)
 
@@ -383,7 +383,7 @@ Tested on 7-page GlobalFinTech Enterprise Compliance Agreement (mixed COMPLIANT/
 
 ---
 
-## 🗓️ Development Timeline
+## Development Timeline
 
 | Day | Date | What Was Built |
 |-----|------|----------------|
@@ -399,7 +399,7 @@ Tested on 7-page GlobalFinTech Enterprise Compliance Agreement (mixed COMPLIANT/
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 | Feature | Description |
 |---------|-------------|
@@ -414,7 +414,7 @@ Tested on 7-page GlobalFinTech Enterprise Compliance Agreement (mixed COMPLIANT/
 
 ---
 
-## 🤝 Acknowledgements
+## Acknowledgements
 
 - **AMD** - AMD Instinct MI300X GPU access via AMD Developer Cloud + $100 GPU credits through AMD AI Developer Program. This project would not exist without AMD's hardware and infrastructure support.
 - **TCS** - For organising the hackathon and providing the innovation platform
@@ -424,14 +424,12 @@ Tested on 7-page GlobalFinTech Enterprise Compliance Agreement (mixed COMPLIANT/
 
 ---
 
-## 👤 Author
+## Author
 
 **Hardik Parmar** - AI/ML Engineer at TCS
 
 [![GitHub](https://img.shields.io/badge/GitHub-hardikjp7-181717?style=flat-square&logo=github)](https://github.com/hardikjp7)
-[![AWS](https://img.shields.io/badge/AWS-ML_Associate-FF9900?style=flat-square&logo=amazonaws)](https://aws.amazon.com/certification/)
-
-B.E. Electronics & Communication Engineering · Vishwakarma Government Engineering College, Ahmedabad · 2024
+[![AWS](https://img.shields.io/badge/AWS-ML_Associate-FF9900?style=flat-square&logo=amazonaws)](https://www.credly.com/badges/76ad8cd0-fcfe-4994-82a0-9a0aaf2d76b4/public_url)
 
 ---
 
