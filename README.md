@@ -124,37 +124,7 @@ Every answer is grounded in the current audit result - no hallucination from pri
 
 ## Architecture
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                        auditiq Pipeline                          │
-│                                                                  │
-│  📄 Document (PDF / TXT)                                        │
-│       │                                                          │
-│       ▼                                                          │
-│  document_parser.py  →  text extraction + overlapping chunks    │
-│       │                  (500 words, 50 word overlap)           │
-│       ▼                                                          │
-│  rag_pipeline.py     →  bge-small embed → FAISS search         │
-│                          → similarity threshold 0.60            │
-│                          → top-3 relevant rules per chunk       │
-│       │                                                          │
-│       ▼                                                          │
-│  validator.py        →  Qwen2.5-7B-Instruct on AMD ROCm        │
-│                          → structured JSON output               │
-│                          → blended confidence score             │
-│       │                                                          │
-│       ▼                                                          │
-│  confidence_scorer.py →  dedup by rule_id                      │
-│                           → severity-weighted score             │
-│                           → risk level + framework breakdown    │
-│       │                                                          │
-│       ▼                                                          │
-│  report_generator.py  →  PDF (5 pages) + HTML + JSON          │
-│       │                                                          │
-│       ▼                                                          │
-│  FastAPI + index.html →  enterprise dashboard + chat           │
-└──────────────────────────────────────────────────────────────────┘
-```
+![Architecture](architecture.png)
 
 ### Agent Orchestration (`validator_agent.py`)
 ```python
