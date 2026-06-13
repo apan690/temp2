@@ -92,7 +92,7 @@ FinTech companies · Insurance providers · Healthcare organizations
 - **Scoring methodology appendix** - transparent formula, severity weights, confidence blending explained
 
 <p align="center">
-  <img src="pdf_report.png" alt="PDF Report" width="700">
+  <img src="pdf_report.png" alt="PDF Report" width="600">
 </p>
 
 ### 💬 AI Chat Assistant (New)
