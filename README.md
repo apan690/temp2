@@ -180,8 +180,7 @@ auditiq/
 │   ├── 🎨 charts.py               # Plotly chart generators (Gradio)
 │   ├── 🖥️  app.py                  # Gradio prototype UI
 │   ├── 🌐 index.html              # FastAPI enterprise dashboard + chat
-│   ├── 📦 plotly.min.js           # Bundled Plotly (offline capable)
-│   └── 🛠️  generate_demo_pdf.py   # Demo document generator
+│   └── 📦 plotly.min.js           # Bundled Plotly (offline capable)
 │
 ├── data/
 │   ├── compliance_rules/
@@ -199,25 +198,18 @@ auditiq/
 │       └── rule_texts.pkl
 │
 ├── notebooks/
-│   ├── 01_setup_test.ipynb        # Day 1 - Environment + GPU test
-│   ├── 02_rag_pipeline.ipynb      # Day 2 - RAG + FAISS + LLM
-│   ├── 03_agent_logic.ipynb       # Day 3 - Agent + scoring + reports
-│   ├── 04_ui_gradio.ipynb         # Day 4 - Gradio prototype
-│   ├── 05_final_demo.ipynb        # Day 5-6 - Extended rules + charts
-│   └── 06_fastapi_ui.ipynb        # Day 7+ - FastAPI + enterprise UI
+│   ├── 01_setup_test.ipynb
+│   ├── 02_rag_pipeline.ipynb
+│   ├── 03_agent_logic.ipynb
+│   ├── 04_ui_gradio.ipynb
+│   ├── 05_final_demo.ipynb
+│   └── 06_fastapi_ui.ipynb
 │
 ├── outputs/
 │   └── audit_reports/             # Generated PDF/HTML/JSON reports
 │
 └── logs/
-    ├── day1_summary.json
-    ├── day2_metrics.json
-    ├── day3_summary.json
-    ├── day4_summary.json
-    ├── day5_summary.json
-    ├── day6_summary.json
-    ├── day7_summary.json
-    └── slide4_final_metrics.json  # Final metrics for PPT Slide 4
+
 ```
 
 ---
