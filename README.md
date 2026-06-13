@@ -350,22 +350,6 @@ Tested on 7-page GlobalFinTech Enterprise Compliance Agreement (mixed COMPLIANT/
 
 ---
 
-## Development Timeline
-
-| Day | Date | What Was Built |
-|-----|------|----------------|
-| 1 | Jun 8 | AMD GPU setup · compliance rules KB · document parser · embeddings |
-| 2 | Jun 9 | RAG pipeline · FAISS index · Qwen2.5-7B integration · validator |
-| 3 | Jun 10 | LangChain agent · confidence scorer · PDF/HTML/JSON report generator |
-| 4 | Jun 11 | Gradio prototype UI · end-to-end integration · demo documents |
-| 5 | Jun 11 | HIPAA + PCI-DSS rules · reasoning field · action plan · visual improvements |
-| 6 | Jun 12 | Plotly charts · enterprise PDF generator · FastAPI migration |
-| 7 | Jun 12 | Enterprise HTML UI (navy + amber design) · framework + status filters |
-| 8 | Jun 13 | Rule dedup · retrieval threshold · hallucination guardrail · blended confidence |
-| 9 | Jun 13 | AI Chat assistant · PDF scoring appendix · section references · README |
-
----
-
 ## Roadmap
 
 | Feature | Description |
