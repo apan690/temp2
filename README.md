@@ -26,7 +26,7 @@
 
 *Track 1 - Agents · Use Case AGENTS_006 · Solo Participant*
 
-[**Features**](#features) · [**Architecture**](#-architecture) · [**Demo Results**](#-demo-results) · [**Setup**](#-setup) · [**Usage**](#-usage) · [**Scoring**](#-scoring-methodology) · [**Roadmap**](#-roadmap)
+[**Features**](#features) · [**Architecture**](#architecture) · [**Demo Results**](#demo-results) · [**Setup**](#setup) · [**Usage**](#usage) · [**Scoring**](#scoring-methodology) · [**Roadmap**](#roadmap)
 
 </div>
 
