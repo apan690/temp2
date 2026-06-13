@@ -19,6 +19,7 @@
 ![auditiq Dashboard](dashboard.png)
 
 <br>
+
 ---
 
 🏆 **Built for TCS & AMD AI Hackathon 2026** - *"Innovate. Build. Accelerate with AI"*
